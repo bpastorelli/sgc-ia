@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.sgc</groupId>
-	<artifactId>ai</artifactId>
+	<artifactId>sgc-ai</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ai</name>
 	<description>SGC - AI</description>
@@ -65,6 +65,13 @@
 	        <groupId>org.springframework.boot</groupId>
 	        <artifactId>spring-boot-starter-webflux</artifactId>
 	    </dependency>
+	    
+	    <dependency>
+    		<groupId>jakarta.persistence</groupId>
+    		<artifactId>jakarta.persistence-api</artifactId>
+    		<version>3.1.0</version> 
+    	</dependency>
+
 
 	</dependencies>
 
