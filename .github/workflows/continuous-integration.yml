@@ -1,4 +1,4 @@
-name: Continuous Integration with GitHub Actions
+name: Continuous Integration with GitHub Actions sgc-ia
 
 on:
   push:
