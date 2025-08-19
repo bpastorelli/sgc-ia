@@ -2,4 +2,4 @@ server:
   port: 80
 
 file:
-  upload-dir: /home/runner/work/sgc-ai/sgc-ai/sgc_ai
+  upload-dir: /home/runner/work/sgc-ai/sgc_ai
