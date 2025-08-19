@@ -1,0 +1,22 @@
+name: Continuous Integration with GitHub Actions
+
+on:
+  push:
+    branches: 
+      - develop
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:    
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3.13.0
+      with:
+        java-version: '17'
+        distribution: 'adopt'
+        cache: maven
+        
+    - name: Build Application
+      working-directory: .
+      run: mvn clean package
